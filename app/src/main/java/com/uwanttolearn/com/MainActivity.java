@@ -7,21 +7,15 @@ import android.content.ContentValues;
 import android.content.CursorLoader;
 import android.content.Loader;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.CursorAdapter;
 import android.widget.EditText;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
-import com.uwanttolearn.com.contentprovider.UWantToLearnContentProvider;
 import com.uwanttolearn.com.db.DBContract;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends ListActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 
@@ -182,6 +176,12 @@ public class MainActivity extends ListActivity implements LoaderManager.LoaderCa
     }
     //</editor-fold>
 
+
+
+
+
+    // Testing Android Studio Git
+    // Testing Android Studio Git
 
 
 }
